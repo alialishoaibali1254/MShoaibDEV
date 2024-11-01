@@ -9,7 +9,7 @@ import Contact from './components/Contact'
 import Foter from './components/Foter'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import Top from './components/top'
+import Top from './components/Top'
 const App = () => {
   useEffect(()=>{
     Aos.init();
