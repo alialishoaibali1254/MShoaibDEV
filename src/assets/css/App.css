@@ -106,7 +106,7 @@ body{
       align-items: center;
     }
     .nav_item{
-      margin-left: -252px;
+    
     }
     .home{
       flex-direction: column-reverse;
@@ -125,7 +125,7 @@ body{
       display: flex;
       justify-content: center;
       /* margin: auto; */
-    margin-left: 170px;
+    
     }
     .leftedu{
       max-width: 370px;
