@@ -13,6 +13,9 @@ body{
   overflow-x: hidden;
   
 }
+html, body {
+  overflow-x: hidden;
+}
 
 /* responisve media quiries section max-width 820px */
 @media (max-width: 820px) {
