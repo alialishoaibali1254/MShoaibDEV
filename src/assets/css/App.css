@@ -171,6 +171,96 @@ html, body {
     max-width: 420px;
    }
   }
+@media (max-width: 390px) {
+  .nav_bar{
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-item{
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .nav_item{
+    margin-left: -222px;
+  }
+  .home{
+    flex-direction: column-reverse;
+    max-width: 370px;
+  }
+  .left{
+    max-width: 350px;
+    margin-right: 8px;
+  }
+  .image img{
+    max-width: 250px;
+    max-height: 250px;
+  }
+  .right-edu-im img{
+    max-width: 370px;
+    display: flex;
+    justify-content: center;
+    /* margin: auto; */
+  margin-left: 170px;
+  }
+  .leftedu{
+    max-width: 370px;
+    margin-left: 60px;
+  }
+ .edu-1{
+  max-width: 340px;
+ 
+ }
+ .edu-2{
+  max-width: 340px;
+ }
+ .skills{
+  max-width: 370px;
+ }
+ .skills .item h3{
+  font-size: 
+  16px;
+ } 
+ .skills .item img{
+max-width: 60px;
+ }
+
+ .projects{
+  max-width: 370px;
+ }
+ .project-card{
+  max-width: 300px;
+ }
+ .card img{
+  max-width: 275px;
+ }
+ .right-map-cont{
+  max-width: 350px;
+  margin-left: 2px;
+ }
+ .right-map-cont iframe{
+  max-width: 350px;
+ }
+ .left-form{
+  max-width: 350px;
+ }
+ form{
+  min-width: 350px;
+ margin-left: 2px;
+ }
+ .footers{
+  max-width: 390px;
+ }
+}
+
+
+
+
+
+
+
   /* media 320px */
   @media (max-width: 320px) {
     .nav_bar{
