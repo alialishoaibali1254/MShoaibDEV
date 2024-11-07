@@ -23,7 +23,7 @@ const Home = () => {
       data-aos-duration="1000"
         >
    <h1>Welcome To My profile</h1>
-   <h1 ref={typedRef}>Lorem ipsum dolor sit amet.</h1>
+   <h1 ref={typedRef}></h1>
 
         </div>
         <div className="right">
