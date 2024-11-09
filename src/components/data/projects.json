@@ -4,8 +4,8 @@
     "title": "Quiety",
     "imageSrc": "https://s3.envato.com/files/515289658/quiety-preview.__large_preview.png",
     "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://github.com/alialishoaibali1254/Quiety"
+    "demo": "https://my-quiety-app.vercel.app/",
+    "source": "https://github.com/alialishoaibali1254/my-quiety-app"
   },
   {
     "id": 2,
