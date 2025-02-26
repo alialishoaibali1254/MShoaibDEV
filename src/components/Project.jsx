@@ -18,7 +18,7 @@ const Project = () => {
                 <h5 className="card-title">{data.title || "nfd"}</h5>
                 <p className="card-text">{data.description || "No Description Available"}</p>
                 <a href={data.demo} className="btn btn-primary " target="_blank" rel="noopener noreferrer"> Demo</a>
-                <a href={data.source} className="btn btn-warning" target="_blank" rel="noopener noreferrer"> Code</a>
+               
               </div>
             </div>
           </div>
