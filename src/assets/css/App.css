@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 :root{
-  --box-shadow:5px 5px 10px 10px rgba(101, 175,10,0.5);
+  --box-shadow:5px 5px 10px 10px rgba(236, 236, 236, 0.123);
   --bg-color:rgb(40,47,97);
 }
 body{
-  background-color: rgb(11,26,51);
+  background-color: black;
   color: white;
   overflow-x: hidden;
   
 }
-html, body {
+html, body{
   overflow-x: hidden;
 }
 
@@ -71,6 +71,9 @@ html, body {
     align-items: center;
     flex-direction: column;
   }
+  .right-edu-im img{
+    margin: auto;
+  }
   .skills{
      display: flex;
      justify-content: center;
@@ -97,20 +100,7 @@ html, body {
 }
 /* @media (max-width: 428px) */
   @media (max-width: 428px) {
-    .nav_bar{
-      max-width: 428px;
-      display: flex;
-      flex-direction: column;
-    }
-    .right-item{
-      flex-direction: column;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .nav_item{
-    margin-left:-252px;
-    }
+    
     .home{
       flex-direction: column-reverse;
       max-width: 400px;
@@ -124,15 +114,15 @@ html, body {
       max-height: 250px;
     }
     .right-edu-im img{
-      max-width: 390px;
+      max-width: 350px;
       display: flex;
       justify-content: center;
       /* margin: auto; */
-    margin-left:170px;
+    margin-left: 190px;
     }
     .leftedu{
       max-width: 370px;
-      margin-left: 60px;
+     margin: auto;
     }
    .edu-1{
     max-width: 370px;
@@ -171,21 +161,11 @@ html, body {
     max-width: 420px;
    }
   }
+
+/* media 390px */
 @media (max-width: 390px) {
-  .nav_bar{
-    max-width: 390px;
-    display: flex;
-    flex-direction: column;
-  }
-  .right-item{
-    flex-direction: column;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
-  .nav_item{
-    margin-left: -222px;
-  }
+ 
+  
   .home{
     flex-direction: column-reverse;
     max-width: 370px;
@@ -256,50 +236,34 @@ max-width: 60px;
 }
 
 
-
-
-
-
-
   /* media 320px */
   @media (max-width: 320px) {
-    .nav_bar{
-      max-width: 300px;
-      display: flex;
-      flex-direction: column;
-    }
-    .right-item{
-      flex-direction: column;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-    }
-    .nav_item{
-      margin-left: -160px;
-    }
+    
+    
     .home{
       flex-direction: column-reverse;
       max-width: 300px;
       min-height: 600px;
+      margin: auto;
     }
     .left{
       max-width: 290px;
-      margin-right: -5px;
+     
     }
     .image img{
       max-width: 250px;
       max-height: 250px;
     }
     .right-edu-im img{
-      max-width: 320px;
+      max-width: 300px;
       display: flex;
       justify-content: center;
-      /* margin: auto; */
-    margin-left: 200px;
+      margin-left: 200px;
+    
     }
     .leftedu{
       max-width: 270px;
-      margin-left: 30px;
+      margin: auto;
     }
    .edu-1{
     max-width: 270px;
@@ -322,7 +286,7 @@ max-width: 60px;
    }
    .right-map-cont{
     max-width: 250px;
-    margin-left: 2px;
+    
    }
    .right-map-cont iframe{
     max-width: 250px;
@@ -332,115 +296,89 @@ max-width: 60px;
    }
    form{
     min-width: 250px;
-   margin-left: 2px;
+   margin: auto;
    }
    .footers{
-    max-width: 320px;
+    max-width: 310px;
    }
    .skills .item h3{
     font-size: 
     16px;
    } 
    .skills .item img{
-  max-width: 60pxn;
+  max-width: 60px;
    }
   .left-form button{
   width: 130px;
    }
   }
-/* Navbar section */
-.nav_item{
-  cursor: pointer;
-  font-size: 2rem;
-  font-weight: bold;
-  padding: 16px;
-}
-.nav_item:hover{
-  border-bottom: 3px solid yellow; 
-}
-a{
-  text-decoration: none;
-  color: white;
-}
-.nav_bar  {
-  width: 1349px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.nav_bar .nav_items{
-  padding: 16px;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.nav_bar .nav_items:hover{
-  border-bottom: 3px solid yellow;
-}
+
+
 /* Home section */
-.home{
-  width: 1349px;
-  height: 80vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  .home{
+    width: 1349px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
-}
-.home .left{
-  background-color: var(--bg-color);
-  width: 620px;
-   height: 13rem;
-  text-align: center;
-  padding: 30px;
-  border-radius: 10px;
-  border: 2px solid yellow;
-  box-shadow: var(--box-shadow);
-}
-
-.home .right .image{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: yellow; */
-  /* height: 350px;
-  width: 350px; */
-}
-.home .right .image img{
-  height: 300px;
-  width: 300px;
-  border: 5px solid yellow;
-  border-radius: 100%;
-  animation-name: superman;
-  animation-duration:3s ;
-  animation-iteration-count: infinite;
-}
-
-@keyframes superman{
-  0%{
-border-color: blue;
-transform: translate(0,0px);
-box-shadow: 10px 10px 100px 50px blue;
   }
-  25%{
-    border-color: rgb(239,244,11);
+  .home .left{
+    background-color: transparent;
+    width: 620px;
+    height: 13rem;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: var(--box-shadow);
+  }
+
+  .home .right .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    /* height: 350px;
+    width: 350px; */
+  }
+  .home .right .image img{
+    height: 300px;
+    width: 300px;
+    border: 5px solid white;
+    border-radius: 100%;
+    animation-name: superman;
+    animation-duration:3s ;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes superman{
+    0%{
+  border-color: white;
+  transform: translate(0,0px);
+
+    }
+    25%{
+      border-color: white;
+    
   
-    box-shadow: 10px 10px 100px 50px  rgb(239,244,11);
+    }
+    50%{
+      border-color: white;
+    transform: translate(0,10px);
+    
+    }
+    75%{
+      border-color: white;
+    
+    
+    }
+    100%{
+      border-color:  white;
+      transform: translate(0,-0px);
+    
+    }
   }
-  50%{
-    border-color: rgb(12,12,199);
-   transform: translate(0,10px);
-    box-shadow: 10px 10px 100px 50px  rgb(12,12,199);
-  }
-  75%{
-    border-color: rgb(130, 217, 160);
-  
-    box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
-  }
-  100%{
-    border-color:  rgb(50,55,205);
-    transform: translate(0,-0px);
-    box-shadow: 10px 10px 100px 50px  rgb(50,55,205);
-  }
-}
  
 /* Education */
 
@@ -460,12 +398,12 @@ box-shadow: 10px 10px 100px 50px blue;
 gap: 1rem;
   width: 675px;
   height: 220px;
-  background-color: var(--bg-color);
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  border: 1px solid yellow;
+  border: 1px solid white;
   box-shadow: var(--box-shadow);
   justify-content: center;
 }
@@ -473,12 +411,12 @@ gap: 1rem;
   gap: 1rem;
     width: 675px;
     height: 220px;
-    background-color: var(--bg-color);
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     padding: 30px;
     border-radius: 10px;
-    border: 1px solid yellow;
+    border: 1px solid white;
     box-shadow: var(--box-shadow);
     justify-content: center;
   
@@ -523,18 +461,18 @@ gap: 1rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: auto;
+    
     /* width: 800px; */
     /* background-color: yellow; */
   }
   .skills .items .item {
 width: calc(33.33%);
-background-color: black;
+background-color: transparent;
 margin: 20px;
 text-align: center;
 padding: 20px;
 border-radius: 10px;
-border: 1px solid yellow;
+border: 1px solid white;
 box-shadow: var(--box-shadow);
   }
   .skills .items .item img{
@@ -547,12 +485,13 @@ box-shadow: var(--box-shadow);
   }
 /* projects */
   .project-card {
+    background-color: transparent;
     width: 120%; /* Make sure card takes full width of its column */
     height: 100%; /* Ensure the card takes the full height available */
     display: flex;
     flex-direction: column; /* Stack items vertically */
     padding: 10px 10px 10px 10px;
-    border: 2px solid yellow;
+    border: 2px solid white;
     border-radius: 10px;
     box-shadow: var(--box-shadow);
   }
@@ -564,14 +503,15 @@ box-shadow: var(--box-shadow);
     justify-content: space-between; /* Space out the buttons */
     gap: .5rem;
   }
+ 
   
   .card img {
     height: 250px; /* Set a fixed height for images */
     width: 280px;
-    border: 2px solid yellow;
+    border: 2px solid white;
     border-radius: 10px;
   }
-.hweq{
+  .hweq{
     font-size: 50px;
   }
   
@@ -585,7 +525,7 @@ box-shadow: var(--box-shadow);
     
   }
   .hedt h1{
-     text-align: center;
+   text-align: center;
    font-size: 50px;
    margin-bottom: 20px;
   }
