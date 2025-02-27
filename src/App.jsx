@@ -17,8 +17,9 @@ const App = () => {
   },[])
   return (
     <>
-      <Navbar/>
       <div className="container-fluid">
+      <Navbar/>
+      
         <Home/>
         <Education/>
         <Skills/>
