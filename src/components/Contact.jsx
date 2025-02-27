@@ -43,15 +43,15 @@ const Contact = () => {
             <form className='form' onSubmit={onSubmit} data-aos="fade-up-right" data-aos-duration="1000">
               <div className="input-box mb-3">
                 <label htmlFor="fname" className="font-weight-bold">Full Name</label>
-                <input type="text" className="form-control shadow-sm" placeholder="Enter your name" name="name" required />
+                <input type="text" className="form-control shadow-sm text-light" placeholder="Enter your name" name="name" required />
               </div>
               <div className="input-box mb-3">
                 <label htmlFor="email" className="font-weight-bold">Email Address</label>
-                <input type="email" className="form-control shadow-sm" placeholder="Enter your email" name="email" required />
+                <input type="email" className="form-control shadow-sm text-light" placeholder="Enter your email" name="email" required />
               </div>
               <div className="input-box mb-3">
                 <label htmlFor="message" className="font-weight-bold">Message</label>
-                <textarea name="message" className="form-control shadow-sm" placeholder="Enter your message" required></textarea>
+                <textarea name="message" className="form-control shadow-sm text-light" placeholder="Enter your message" required></textarea>
               </div>
               <button type="submit" className="btn  btn-light ">Send Message</button>
             </form>
