@@ -21,7 +21,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="container  py-5" id="home">
+    <div className="container-fluid  py-5" id="home">
       <div className="row  align-items-center">
         {/* Left Section: Text */}
         <div className="col-12 col-md-6 text-center text-md-left" id='typescript' data-aos="fade-up-right" data-aos-duration="1000">
