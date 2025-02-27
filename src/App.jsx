@@ -7,9 +7,10 @@ import Skills from './components/Skills'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Foter from './components/Foter'
+import Toop from './components/Toop'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-import Top from './components/Top'
+
 const App = () => {
   useEffect(()=>{
     Aos.init();
@@ -17,14 +18,14 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <div className="container">
+      <div className="container-fluid">
         <Home/>
         <Education/>
         <Skills/>
         <Project/>
         <Contact />
         <Foter/>
-        <Top/>
+        <Toop/>
       </div>
     </>
   )
