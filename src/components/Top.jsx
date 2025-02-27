@@ -1,13 +1,13 @@
 import React from 'react'
 
-const Top = () => {
+const Toop = () => {
   return (
-    <>
-           <a href="#" class="top-to-bottom"> 
+    <div>
+       <a href="#" class="top-to-bottom"> 
      <i class="bi bi-chevron-up"></i>
    </a>
-    </>
+    </div>
   )
 }
 
-export default Top
+export default Toop
