@@ -42,7 +42,7 @@ const Contact = () => {
           <div className="col-12 col-md-6 mb-4 ">
             <form className='form' onSubmit={onSubmit} data-aos="fade-up-right" data-aos-duration="1000">
               <div className="input-box mb-3">
-                <label htmlFor="fname" className="font-weight-bold">Full Name</label>
+                <label htmlFor="fname" className="font-weight-bold ">Full Name</label>
                 <input type="text" className="form-control shadow-sm text-light" placeholder="Enter your name" name="name" required />
               </div>
               <div className="input-box mb-3">
