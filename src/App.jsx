@@ -26,7 +26,7 @@ const App = () => {
         <Project/>
         <Contact />
         <Foter/>
-        <Toop/>
+        <Top/>
       </div>
     </>
   )
