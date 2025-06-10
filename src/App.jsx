@@ -7,7 +7,7 @@ import Skills from './components/Skills'
 import Project from './components/Project'
 import Contact from './components/Contact'
 import Foter from './components/Foter'
-import Toop from './components/Toop'
+import Top from './components/Top'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
