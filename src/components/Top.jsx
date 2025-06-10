@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Toop = () => {
+const Top = () => {
   return (
     <div>
        <a href="#" class="top-to-bottom"> 
@@ -10,4 +10,4 @@ const Toop = () => {
   )
 }
 
-export default Toop
+export default Top
