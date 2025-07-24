@@ -1,4 +1,5 @@
 [
+  
   {
     "id": 1,
     "title": "Quiety",
@@ -10,7 +11,7 @@
   {
     "id": 2,
     "title": "Shapely Demo",
-    "imageSrc": "https://colorlib.com/wp/wp-content/uploads/sites/2/flexible-free-multipurpose-wordpress-theme.jpg.webp",
+    "imageSrc": "https://mianmoaz786.github.io/parrallex-section.jpg",
     "description": "This is a project made with complete React js.",
     "demo": "https://shapely-demo-five.vercel.app/"
    
