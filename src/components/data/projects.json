@@ -1,5 +1,12 @@
 [
-  
+   {
+    "id": 1,
+    "title": "StoneStep",
+    "imageSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrOoipBuNyXXyaWjtjH9tiX6L27CXR2KfZjOqgK4eC_7zniR1RMifawYemKirxsgsbdlM&usqp=CAU",
+    "description": "This is a project made with complete Mern Stack.",
+    "demo": "https://stonestep.vercel.app/"
+   
+  },
   {
     "id": 1,
     "title": "Quiety",
