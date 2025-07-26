@@ -14,7 +14,7 @@ const Education = () => {
             <h2>Islamia High School</h2>
           </div>
           <div className="edu-2 mt-4" data-aos="fade-up-right" data-aos-duration="1000">
-            <h1>Fsc (pre-med)</h1>
+            <h1>Fsc</h1>
             <h2>2022-2024</h2>
             <h2>Govt Graduate College</h2>
           </div>
