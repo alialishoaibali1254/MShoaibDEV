@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["My Name is Shoaib", "I'm a Frontend Developer", "I'm a Backend Developer"],
+      strings: ["My Name is Shoaib", "I'm a Frontend Developer"],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true
